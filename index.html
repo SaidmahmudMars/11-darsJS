@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Da</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-800 flex flex-col items-center p-6">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-3xl text-center">
+
+        <div class="flex justify-center gap-4 mb-4">
+            <select id="select" class="p-2 border rounded">
+                <option value="name">Ism bo'yicha saralash</option>
+                <option value="age">Yosh bo'yicha saralash</option>
+            </select>
+            <input type="text" id="input" class="p-2 border rounded"
+                placeholder="Qidirish (ism yoki familiya)" />
+        </div>
+        <div id="container" class="flex flex-wrap gap-4 justify-center border-stone-950"></div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
